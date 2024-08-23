@@ -6,36 +6,28 @@
     <title>SimpleSite</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header_inner">
-
-                <a href="#" class="logo">
-                    <img src="/img/logo.png" alt="" class="loga_link">
-                </a>
-
-                <nav class="menu">
-                    <button class="menu_btn"></button> <!-- кнопка бургер-->
-                    <ul class="menu_list">
-                        <li class="menu_item"><a href="#" class="menu_list-link">Головна</a></li>
-                        <li class="menu_item"><a href="#" class="menu_list-link">Каталог</a></li>
-                        <li class="menu_item"><a href="#" class="menu_list-link">Про нам</a></li>
-                        <li class="menu_item"><a href="#" class="menu_list-link">Контакти</a></li>
-                    </ul>
-                </nav>
-
-                <a href="tel:+38(066)-000-00-00" class="phone">+38(066)-000-00-00</a>
-
-
-            </div>
-
+    <header class="menu">
+        <div class="menu-wrap">
+            <img src="/img/logo.png" class="logo-img" alt="Logo">
+            <input type="checkbox" id="checkbox">
+            <nav>
+                <ul>
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="#">Товари</a></li>
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </nav>
+            <i class="fa fa-bars menu-icon"></i>
         </div>
+     </header>
 
-    </header>
-    
+    <footer>Всі права захисщені 2024</footer>
+
+
 </body>
 </html>
